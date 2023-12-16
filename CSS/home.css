@@ -9,7 +9,16 @@
     /* background: #B3CDE0; */
 }
 
-.form{
+.btn-primary{
+    background-color: #01134A !important;
+}
+
+
+.new-color {
+    color: #01134A;
+}
+
+.form {
     background: transparent;
     border-bottom: solid 1.2px #01134A;
     width: 100%;
@@ -32,12 +41,15 @@
 }
 
 .fixarRodape {
+    display: flex;
+    flex-direction: column;
     height: auto;
-    position: fixed;
     width: 100%;
     text-align: center;
-    margin: 1% 0;
+    margin: 15% 0 0 0;
+    justify-content: flex-end;
 }
+
 
 
 h2 {
@@ -98,7 +110,7 @@ h2 {
 }
 
 
-.legenda {
+/* .legenda {
 
     width: auto;
     color: #fdfdfd;
@@ -108,9 +120,9 @@ h2 {
     bottom: 18%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
-    left: 10%;
+    left: 10%; */
 
-}
+
 
 .numeracao {
 
@@ -176,20 +188,21 @@ h2 {
     }
 }
 
-.form-um{
+.form-um {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.organize{
+.organize {
     width: 80%;
 }
-.rede-social{
+
+.rede-social {
     margin: 1%;
 }
 
-.imagens{
+.imagens {
     display: flex;
     flex-wrap: wrap;
 }
